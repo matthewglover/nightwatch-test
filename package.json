@@ -1,0 +1,26 @@
+{
+  "name": "nightwatch-test",
+  "version": "1.0.0",
+  "description": "App to test using nightwatch",
+  "main": "index.js",
+  "scripts": {
+    "clear-screenshots": "rimraf screenshots/**/*",
+    "postinstall": "node postinstall.js",
+    "e2e": "npm run clear-screenshots && nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewglover/nightwatch-test.git"
+  },
+  "author": "Matt Glover (https://github.com/matthewglover)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewglover/nightwatch-test/issues"
+  },
+  "homepage": "https://github.com/matthewglover/nightwatch-test#readme",
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "nightwatch": "^0.9.11",
+    "selenium-download": "^2.0.9"
+  }
+}
