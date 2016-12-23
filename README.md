@@ -12,3 +12,11 @@ To understand how to use Nightwatch on a simple React application.
 
 - Node.js
 - JDK
+
+## To run
+
+1. Clone the repo
+
+2. Install dependencies `npm install`
+
+3. Run tests: `npm run e2e`
