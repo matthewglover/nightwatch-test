@@ -2,7 +2,7 @@ require('colors');
 const fs = require('fs');
 const seleniumDownload = require('selenium-download');
 
-const BINPATH = './node_modules/nightwatch/bin/';
+const BINPATH = './bin/';
 
 
 const exists = (err, stat) => err || !stat || stat.size < 1;
